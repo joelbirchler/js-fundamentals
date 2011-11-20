@@ -3,10 +3,8 @@ So, we have a good group of Ruby developers and a growing need for more intense 
 # To Do
 Here are some things that I want to talk about but have not yet...
 
-* scope and "this"
-* truthy and falsey
-* pass by reference/value
-* functions
+* functions (named and unnamed and arguments)
 * closure
+* typeof (array is 'object')
 * prototypal inheritance
 * classical OOP

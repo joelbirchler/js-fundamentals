@@ -26,3 +26,23 @@ Person.hey();
 
 var me = new Person(); // create a new object instance
 me.talk();
+
+
+//
+// Okay, but what is classical OOP without inheritance?
+//
+
+function Nerd() {};
+Nerd.prototype = new Person();
+
+// overriding a function...
+Nerd.prototype.talk = function() {
+  print("mehhh");
+}
+
+var you = new Nerd();
+you.talk();
+print(you instanceof Nerd);   // true
+print(you instanceof Person); // true
+print(you instanceof Object); // true
+
