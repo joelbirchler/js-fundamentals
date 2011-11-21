@@ -29,11 +29,11 @@ me.talk();
 
 
 //
-// Okay, but what is classical OOP without inheritance?
+// What about inheritance?
 //
 
 function Nerd() {};
-Nerd.prototype = new Person();
+Nerd.prototype = new Person(); // don't forget that this will execute the Person constructor code
 
 // overriding a function...
 Nerd.prototype.talk = function() {
